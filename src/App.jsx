@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import Team from './Team/Team.jsx'
+import React from 'react'
 
-function App(){
+function App() {
   return (
-    <Team />
+    <div>
+    </div>
   )
 }
 
