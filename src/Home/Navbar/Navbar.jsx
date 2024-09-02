@@ -5,7 +5,9 @@ import './Navstyle.css';
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="logo"> Logo</div>
+      {/* <div className="logo">  */}
+        {/* <img src="src\Home\Photos\Money_Matters.png" alt="" /> */}
+      {/* </div> */}
       <div className="menu">
         <Button text="Home" />
         <Button text="Events" />
