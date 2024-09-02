@@ -10,7 +10,7 @@
     justify-content: center;
     
 }
-.navbar button {
+.Link {
     padding: 5px 0px;
     margin: 0px 5px; 
     width: max(15vw,10px);
@@ -19,8 +19,9 @@
     color: rgb(175, 247, 127);
     font-size: max(1.5vw,13px);
     border-radius: 10px;
+    text-align: center;
 }
-.navbar button:hover{
+.Link:hover{
     background-color: rgba(59, 59, 58, 0.356);
     border-radius: 30px;
 }

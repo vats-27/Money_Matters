@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.member{
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1.5px solid grey;
+    padding-bottom: 20px;
+    width: 270px;
+}
+
+.img img{
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.details{
+    padding-left: 8px;
+}
+
+.name{
+    color: white;
+    font-size: max(1.4vw,18px);
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.member h3{
+    color: grey;
+    font-size: max(1.15vw,15px);
+    font-weight: 640;
+}
+
+.logos{
+    margin: 4px 0;
+}
+
+.logos svg{
+    margin-right: 4px;
+}
