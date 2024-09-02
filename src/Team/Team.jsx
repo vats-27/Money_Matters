@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Team.css'
-import Member from './member.jsx'
+import Member from './Member.jsx'
 
 function App(){
   return (
