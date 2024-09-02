@@ -14,7 +14,7 @@ function App() {
       element:<><Navbar /><Gallery/></>
     },
     {
-      path:"/Home",
+      path:"/",
       element:<><Navbar /><Home/></>
     },
     {

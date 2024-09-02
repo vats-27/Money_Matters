@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Member.css'
 import Insta from './Photos/insta.jsx'
 import LinkedIn from './Photos/LinkedIn.jsx'

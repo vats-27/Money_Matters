@@ -14,7 +14,7 @@ function Navbar() {
         {/* <img src="src\Home\Photos\Money_Matters.png" alt="" /> */}
       {/* </div> */}
       <div className="menu">
-        <Button text="Home" url="/Home" />
+        <Button text="Home" url="/" />
         <Button text="Events" url="/Events" />
         <Button text="Gallery" url="/Gallery"/>
         <Button text="Team" url="/Team"/>
