@@ -15,7 +15,7 @@ function App() {
     },
     {
       path:"/",
-      element:<><Navbar /><Home/></>
+      element:<><Home/></>
     },
     {
       path:"/About",

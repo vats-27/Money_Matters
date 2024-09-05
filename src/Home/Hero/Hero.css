@@ -1,0 +1,14 @@
+.Hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+
+.Hero h1{
+    width: max(45vw,280px);
+    color: white;
+    font-size: max(4.5vw,48px);
+    font-weight: 650;
+}
