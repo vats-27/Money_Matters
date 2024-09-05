@@ -10,4 +10,15 @@
   height: 26px;
   fill: white;
   display: inline-block;
+  transition: transform 0.18s ease-in-out 0s;
+}
+
+.icon1:hover{
+  transition: transform 0.18s ease-in-out 0s;
+  transform:scale(1.2);
+  fill: rgb(159, 97, 156);
+}
+.icon2:hover{
+  transform:scale(1.2);
+  fill: rgb(38, 119, 232);
 }

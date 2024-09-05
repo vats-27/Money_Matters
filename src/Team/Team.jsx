@@ -11,32 +11,32 @@ function App(){
 
         <div className="members">
           <Member 
-            source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
+            // source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
             name="Chetankumar S Majjagi" position="Web Developer" 
             Insta="" LinkedIn=""
           />
           <Member 
-            source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
+            // source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
             name="Chetankumar S Majjagi" position="Web Developer" 
             Insta="" LinkedIn=""
           />
           <Member 
-            source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
+            // source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
             name="Chetankumar S Majjagi" position="Web Developer" 
             Insta="" LinkedIn=""
           />
           <Member 
-            source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
+            // source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
             name="Chetankumar S Majjagi" position="Web Developer" 
             Insta="" LinkedIn=""
           />
           <Member 
-            source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
+            // source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
             name="Chetankumar S Majjagi" position="Web Developer" 
             Insta="" LinkedIn=""
           />
           <Member 
-            source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
+            // source="https://ecell.iiitnr.ac.in/assets/Priyadarshi-BQ75kvD1.jpg"
             name="Chetankumar S Majjagi" position="Web Developer" 
             Insta="" LinkedIn=""
           />
