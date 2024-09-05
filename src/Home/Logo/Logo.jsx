@@ -7,7 +7,7 @@ function Logo() {
   };
   return (
     <div onClick={handleClick} className="Logo">
-      <img src="src\Home\Photos\Money_Matters.png" alt="Logo" />
+      <img src="/Money_Matters.png" alt="Logo" />
       <div className="clubname">Money Matters</div>
     </div>
   );
