@@ -28,7 +28,6 @@
 }
 
 .menu{
-    animation: Slidexx 0.8s ease-in-out 0.2s 1 normal;
     background-color: rgb(19, 19, 19);
     opacity: 0.9;
     padding: 0px 5px;
@@ -37,12 +36,5 @@
     justify-content: space-between;
     width: max(60vw,300px);
     height: fit-content;
-}
-@keyframes Slidexx{
-    from{
-        transform:translateX(400px);
-    }
-    to{
-        transform: translateX(0px);
-    }
+    border: 1px solid rgb(81, 81, 81);
 }
