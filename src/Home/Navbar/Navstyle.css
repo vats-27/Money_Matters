@@ -6,44 +6,43 @@
     display: flex;
     width: 100vw;
     justify-content: space-between;
-    padding: 30px 8%;
-    justify-content: center;    
+    padding: 18px 0%;  
+    align-items: center;
 }
 
 .Link {
-    padding: 5px 0px;
-    margin: 0px 5px; 
+    padding: 8px 0px;
+    margin: 5px 0px; 
     width: max(15vw,10px);
-    /* opacity: 0.9; */
     background-color: rgb(19, 19, 19);
     color: rgb(175, 247, 127);
-    font-size: max(1.5vw,13px);
-    border-radius: 10px;
+    font-size: max(1.35vw,14px);
+    border-radius: 50px;
     text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: background-color 0.175s ease-out ;
 }
 .Link:hover{
     background-color: rgba(59, 59, 58, 0.356);
     border-radius: 30px;
 }
+
 .menu{
+    animation: Slidexx 0.8s ease-in-out 0.2s 1 normal;
     background-color: rgb(19, 19, 19);
     opacity: 0.9;
-    border-left: 1.5px solid rgb(165, 157, 157);
-    border-right: 1.5px solid rgb(165, 157, 157);
-    /* border-bottom: 4px solid rgb(104, 99, 99); */
-    padding: 5px 5px;
-    /* background-color: rgb(62, 61, 61); */
-    /* border-radius: 20%; */
-    border-radius: 11px;
+    padding: 0px 5px;
+    border-radius: 50px 0 0 50px;
     display: flex;
     justify-content: space-between;
-    width: max(80vw,300px);
+    width: max(60vw,300px);
+    height: fit-content;
 }
-/* img{
-     padding: 20px 0px 0px 0px; 
-    display: inline-block;
-    font-size: 5px;
-    background-size: contain;
-    width: max(12vw,50px);
-    color: rgb(208, 111, 193);
-} */
+@keyframes Slidexx{
+    from{
+        transform:translateX(400px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
