@@ -2,6 +2,7 @@
     display: block;
     width: max(30vw,70px);
     padding-left: 20px;
+    user-select: none;
 }
 .Logo :hover{
     cursor:pointer;

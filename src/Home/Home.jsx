@@ -1,20 +1,24 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
-import Hero from './Hero/Hero'
-import Logo from './Logo/Logo'
+import Hero from './Hero'
+import Blog from './Blog.jsx'
 import './Home.css'
 
 function Home() {
   return (
-    <div>
-      <div className="video">
-        <video loop autoPlay muted>
-          <source src="../../public/back.mp4" type="video/mp4" />
-        </video>
-      </div>
+    <div className='main'>
+      <div className="full">
+        <div className="video">
+          <video loop autoPlay muted>
+            <source src="../../public/back.mp4" type="video/mp4" />
+          </video>
+        </div>
     
-      <Navbar/>
-      <Hero />
+        <Navbar/>
+        <Hero />
+      </div>
+      <Blog />
+      
     </div>
   );
 }
