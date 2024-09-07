@@ -2,10 +2,6 @@ import React from 'react'
 import Button from './Button'
 import './Navstyle.css'
 
-import { createBrowserRouter , RouterProvider } from 'react-router-dom';
-
-
-
 function Navbar() {
   
   return (
