@@ -1,15 +1,15 @@
 import React from 'react'
 import Button from './Button'
 import './Navstyle.css'
-import Logo from '../Logo/Logo.jsx';
 
 function Navbar() {
   
   return (
     <div className="navbar">
-      <div className="header">
-        <Logo />
-      </div>
+      <a href="/" className='Logo'>
+        <img src="/Money_Matters.png" alt="Logo" />
+      </a>
+
       <div className="menu">
         <Button text="Home" url="/" />
         <Button text="Events" url="/Events" />

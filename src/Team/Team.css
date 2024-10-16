@@ -1,26 +1,25 @@
 .Team{
-    padding: 0 8%;
+    margin: 140px auto;
 }
 
-.top{
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Team h1{
+    text-align: center;
 }
 
-.top h2{
-    font-size: max(7vw,48px);
-    border-bottom: 4.5px solid rgb(160, 160, 160);
-    width: fit-content;
-    color: white;
-    font-weight: 550;
+.heading .h1{
+    font-size: 60px;
 }
 
 .members{
-    width: 100%;
+    padding: 0 8%;
     display: grid;
-    grid-template-columns: repeat(auto-fill,270px);
-    grid-gap: max(14px,2vw);
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 30px;
+    margin: 25px auto;
     justify-content: center;
+}
+
+.slick-slider button{
+    background-color: grey;
+    border-radius: 50%;
 }
