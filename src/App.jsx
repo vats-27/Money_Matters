@@ -59,17 +59,21 @@ function App() {
 
   const [loading, setLoading] = useState(true);
 
-  // Use the window 'load' event to detect when the page has fully loaded
   useEffect(() => {
     const handlePageLoad = () => {
       setLoading(false); // Set loading to false once the page is loaded
     };
 
-    // Add event listener for the 'load' event
-    window.addEventListener("load", handlePageLoad);
+    const timeout = setTimeout(() => setLoading(false), 3000); // Fallback to stop loading after 3 seconds
 
-    // Clean up the event listener when the component is unmounted
-    return () => window.removeEventListener("load", handlePageLoad);
+    // Add event listener for DOM content load
+    window.addEventListener("DOMContentLoaded", handlePageLoad);
+
+    // Clean up the event listener and timeout
+    return () => {
+      window.removeEventListener("DOMContentLoaded", handlePageLoad);
+      clearTimeout(timeout);
+    };
   }, []);
 
   return (

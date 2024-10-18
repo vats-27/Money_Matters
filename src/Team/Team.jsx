@@ -1,6 +1,6 @@
 import './Team.css'
-// import Member from '..\Small components\Member.jsx'
-import Member from 'src\Small Components\Member.jsx'
+import Member from '../Small components/Member.jsx'
+// import Member from 'src\Small Components\Member.jsx'
 import Welcome from '../Small components/Welcome.jsx'
 import React, { forwardRef } from "react";
 
