@@ -1,0 +1,141 @@
+.hero {
+    position: relative;
+    background-color: transparent;
+    height: calc(100vh - 23vh - 80px);
+    margin-left: max(7vw, 40px);
+    margin-top: 23vh;
+    font-size: max(5vw, 40px);
+}
+
+.mainn {
+    height: 100vh;
+}
+
+.wel {
+    font-family: Montserrat;
+    font-size: 0.4em;
+    font-weight: 200;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.nameclub {
+    margin-top: 0.1em;
+    font-family: Audiowide;
+    font-size: 2.3em;
+    font-weight: 400;
+    text-align: left;
+    color: #28FB75;
+}
+
+.iiit {
+    margin-top: 1em;
+    font-family: Montserrat;
+    font-size: 0.3em;
+    font-weight: 200;
+    text-align: left;
+    color: #FFFFFF;
+    letter-spacing: max(0.1vw, 2px);
+}
+
+.quote {
+    font-family: Montserrat;
+    font-size: 0.4em;
+    font-weight: 200;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 0.4em;
+    margin-bottom: 3em;
+}
+
+.green {
+    font-family: Montserrat;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-align: left;
+    color: #28FB75;
+}
+
+.collab {
+    font-family: Montserrat;
+    font-size: 0.25em;
+    font-weight: 400;
+    text-align: left;
+    color: #FFFFFF;
+    letter-spacing: max(0.095vw, 1px);
+}
+
+.zerodha {
+    width: 3em;
+}
+
+.outerzerodha {
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.text1 {
+    position: absolute;
+}
+
+.theme {
+    right: 0;
+    bottom: calc((100vh - 620px) / 2);
+    right: 30px;
+    position: absolute;
+    z-index: -1;
+}
+
+.explore {
+    position: absolute;
+    bottom: 20px;
+    right: 50%;
+    border: none;
+    width: 10vw;
+    background-color: transparent;
+}
+
+.explore:hover {
+    cursor: pointer;
+    transition: transform 0.2s ease-in 0.1s;
+    transform: scale(1.2);
+}
+
+@media(max-width:426px) {
+    .iiit {
+        font-size: 0.28em;
+    }
+
+    .hero {
+        position: relative;
+        height: 100vh;
+        margin-left: 20px;
+        margin-top: 28vh;
+        margin-right: 0.1em;
+    }
+
+    .quote {
+        font-size: 0.35em;
+        margin-top: 0.4em;
+        margin-bottom: 2em;
+    }
+
+    .green {
+        font-size: 0.75em;
+    }
+
+    .outerzerodha {
+        margin-top: 0.1em;
+    }
+
+    .theme {
+
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .nameclub {
+        margin-top: 0.4em;
+    }
+}

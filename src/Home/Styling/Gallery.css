@@ -1,0 +1,38 @@
+.Gallery{
+    margin: 140px auto;
+    padding: 0 8%;
+}
+
+.Gallery h1{
+    margin-bottom: 35px;
+}
+
+.outer{
+    width: 100%;
+    overflow: scroll;
+}
+
+.photos{
+    width: fit-content;
+    margin: 30px auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    animation: scroller 18s linear 0s infinite normal;
+}
+
+.photos *{
+    height: 220px;
+    border-radius: 16px;
+}
+
+.outer:hover .photos{
+    animation-play-state: paused;
+}
+
+@keyframes scroller {
+    from{}    
+    to{
+        transform: translateX(-100%);
+    }
+}
